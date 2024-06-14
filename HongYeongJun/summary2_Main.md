@@ -49,7 +49,7 @@ Main.jsx
 ### 5. 컴포넌트 가져오기
 
 -   formState가 "SIGN-IN"이면 SignInForm을, 아니면 SignUpForm을 가져온다.
--   [SignUpForm]()을 가져올 때는 setFormState 속성으로 setFormState 함수를 전달한다.
+-   [SignUpForm](./summary4_SignUp.md)을 가져올 때는 setFormState 속성으로 setFormState 함수를 전달한다.
 
 ### 6. S.Tab CSS
 

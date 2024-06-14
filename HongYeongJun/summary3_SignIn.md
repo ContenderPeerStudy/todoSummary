@@ -2,7 +2,7 @@
 
 ## 위치
 
-src-pages-main-\_conponents-sign-in-form.jsx
+src/pages/main/\_conponents/sign-in-form.jsx
 
 ## 주변 컴포넌트
 
@@ -10,7 +10,7 @@ src-pages-main-\_conponents-sign-in-form.jsx
 &emsp;|||  
 sign-in-form.jsx <-SignUpForm.jsx  
 &emsp;|||  
-[FormInput.jsx](), [TDButton.jsx](), style.js
+[FormInput.jsx](./summary5_FormInput.md), [TDButton.jsx](), style.js
 
 ## 기능
 
@@ -44,5 +44,5 @@ sign-in-form.jsx <-SignUpForm.jsx
 -   아래 나오는 모든 요소는 다른 곳에서도 쓰이므로 컴포넌트로 분리했다.
 -   (1) S.Form([style.js])
 -   (2) FormInput
-    ([공용 컴포넌트 FormInput.jsx]())
+    ([공용 컴포넌트 FormInput.jsx](./summary5_FormInput.md))
 -   (3) TDButton([공용 컴포넌트TDButton.jsx]())

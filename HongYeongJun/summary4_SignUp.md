@@ -2,7 +2,7 @@
 
 ## 위치
 
-src-pages-main-\_components-SignUpForm.jsx
+src/pages/main/\_components/SignUpForm.jsx
 
 ## 주변 컴포넌트
 
@@ -64,6 +64,12 @@ src-pages-main-\_components-SignUpForm.jsx
     </details>
 
     -   label: 박스 경계선 위 텍스트
-    -   size: FormInput에 전달될 size 속성
+    -   size: [FormInput](./summary5_FormInput.md)에 전달될 size 속성
     -   name: FormInput의 input 태그에 전달할 속성. 여기서는 실제로 쓰지는 않았음
     -   option: 태그에 따라 없을 수도 있는 부가 정보를 담은 객체
+
+*   (2) map으로 SIGNFORM_ARRAY를 태그로 변형한다.
+*   (3) [FormInput](./summary5_FormInput.md)의 props에 값을 전달한다.
+*   (4) 지금 변형하는 요소에 option이 있으면 option 객체의 placeholder를 placeholder props에 전달한다.
+*   (5) [TDButton]() 컴포넌트를 가져온다.
+*   (6) Form 태그의 스타일은 style.js를 사용한다.
