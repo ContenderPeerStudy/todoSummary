@@ -21,7 +21,7 @@
     - 위치: libs-routes
     - 내용물: 주소에 따라 보여줄 페이지 결정
 3. createBrowseRouter 함수 안에 다음과 같은 객체 배열 생성
-    - ```
+    - ```javascript
         {
         path: "/", //주소명
         element: <Main></Main>,//컴포넌트 태그

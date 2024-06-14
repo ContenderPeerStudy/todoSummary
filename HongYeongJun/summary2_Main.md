@@ -1,5 +1,17 @@
 # Main 페이지
 
+## 위치
+
+src-pages-main-main.jsx
+
+## 주변 컴포넌트
+
+[router.js](./summary1_file_router.md)  
+&emsp;|||  
+Main.jsx  
+&emsp;|||  
+[sign-in-fomr.jsx](./summary3_SignIn.md), [SignUpForm.jsx](./summary4_SignUp.md)
+
 ## 기능
 
 -   SIGN-IN을 누르면 로그인 탭이, SIGN-UP을 누르면 회원가입 탭이 표시된다.
@@ -22,7 +34,10 @@
     -   props
         -   key: ??
         -   $isSelected: formState와 TAB_ARRAY의 tab.name 비교. 같으면 true 반환
-        -   onClick: 클릭 시 handlePressSignTab(tab.name) 함수 작동. map 함수 작동 시점에서 이미 매개변수는 탭 이름으로 지정
+        -   onClick:
+            -   클릭 시 handlePressSignTab(tab.name) 함수 작동.
+            -   map 함수 작동 시점에서 이미 매개변수는 탭 이름으로 지정
+            -   여기에 setState 함수를 넣지 않는 이유는?
     -   내부 텍스트: tab.name으로 지정
 
 ### 4. handlePressSignTab(tab.name) 함수
@@ -34,6 +49,7 @@
 ### 5. 컴포넌트 가져오기
 
 -   formState가 "SIGN-IN"이면 SignInForm을, 아니면 SignUpForm을 가져온다.
+-   [SignUpForm]()을 가져올 때는 setFormState 속성으로 setFormState 함수를 전달한다.
 
 ### 6. S.Tab CSS
 

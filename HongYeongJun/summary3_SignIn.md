@@ -1,4 +1,16 @@
-# SignUp 페이지
+# SignUp 탭
+
+## 위치
+
+src-pages-main-\_conponents-sign-in-form.jsx
+
+## 주변 컴포넌트
+
+[Main.jsx](./summary2_Main.md)  
+&emsp;|||  
+sign-in-form.jsx <-SignUpForm.jsx  
+&emsp;|||  
+[FormInput.jsx](), [TDButton.jsx](), style.js
 
 ## 기능
 
