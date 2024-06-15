@@ -6,11 +6,11 @@ src/pages/main/\_conponents/sign-in-form.jsx
 
 ## 주변 컴포넌트
 
-[Main.jsx](./summary2_Main.md)  
-&emsp;|||  
-sign-in-form.jsx <-SignUpForm.jsx  
-&emsp;|||  
-[FormInput.jsx](./summary5_FormInput.md), [TDButton.jsx](), style.js
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Main.jsx](./summary2_Main.md)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|||  
+[todo.jsx](./)<-(nav)---sign-in-form.jsx <-SignUpForm.jsx  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|||  
+&emsp;&emsp;&emsp;&emsp;&emsp;[FormInput.jsx](./summary5_FormInput.md), [TDButton.jsx](), style.js
 
 ## 기능
 
