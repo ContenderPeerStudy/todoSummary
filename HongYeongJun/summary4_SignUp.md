@@ -10,7 +10,7 @@ src/pages/main/\_components/SignUpForm.jsx
 &emsp;|||  
 [sign-in-form.jsx](./summary3_SignIn.md) <-SignUpForm.jsx  
 &emsp;|||  
-[FormInput.jsx](), [TDButton.jsx](), style.js
+[FormInput.jsx](./summary5_FormInput.md), [TDButton.jsx](./summary6_TDButton.md), style.js
 
 ## 기능
 
@@ -71,5 +71,5 @@ src/pages/main/\_components/SignUpForm.jsx
 *   (2) map으로 SIGNFORM_ARRAY를 태그로 변형한다.
 *   (3) [FormInput](./summary5_FormInput.md)의 props에 값을 전달한다.
 *   (4) 지금 변형하는 요소에 option이 있으면 option 객체의 placeholder를 placeholder props에 전달한다.
-*   (5) [TDButton]() 컴포넌트를 가져온다.
+*   (5) [TDButton](./summary6_TDButton.md) 컴포넌트를 가져온다.
 *   (6) Form 태그의 스타일은 style.js를 사용한다.

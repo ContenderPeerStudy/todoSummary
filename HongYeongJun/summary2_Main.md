@@ -2,7 +2,7 @@
 
 ## 위치
 
-src-pages-main-main.jsx
+src/pages/main/main.jsx
 
 ## 주변 컴포넌트
 
@@ -10,7 +10,7 @@ src-pages-main-main.jsx
 &emsp;|||  
 Main.jsx  
 &emsp;|||  
-[sign-in-fomr.jsx](./summary3_SignIn.md), [SignUpForm.jsx](./summary4_SignUp.md)
+[sign-in-form.jsx](./summary3_SignIn.md), [SignUpForm.jsx](./summary4_SignUp.md)
 
 ## 기능
 
