@@ -6,7 +6,7 @@ src/pages/todo/\_components/todoList.jsx
 
 ## 주변 컴포넌트
 
-[Todo.jsx](./summary7_Todo.md)  
+[todo.jsx](./summary7_Todo.md)  
 &emsp;|||  
 todoList.jsx  
 &emsp;|||  
@@ -41,3 +41,13 @@ todoList.jsx
 3. setTodos(filterTodo)로 state인 todos 배열을 filterTodo로 변형한다.
 
 ### 3. updateTodo
+
+1. oneTodo의 완료/수정 버튼에 걸려있는 [onPressEdit](summary10_oneTodo.md#3-onpressedit) 함수가 실행되면 updateTodo가 실행된다.
+2. temp_todos에는 todo.jsx에서 받아온 todos 배열을 통째로 가져온 다음 요소별로 분해해서 빈 배열에 집어넣은 배열을 할당한다.(쉽게 말해, todos 배열을 복사한다.)
+3. selectTodoIndex 변수는 지금 수정하고 있는 요소를 temp_todos 배열에서 찾아 그 인덱스를 할당받는다.
+    - updateTodo를 호출한 todos 요소의 아이디와 같은 아이디를 가지고 있는 temp_todos 배열의 요소의 인덱스를 가져온다.
+    -
+4. 3에서 찾아온 요소를 다시 작성한다.
+    - 해당 요소의 원래 값을 작성한다.
+    - content는 updateTodo의 매개변수로 받아온 값으로 수정한다. (근데 이게 어떻게 가능?)
+5. temp_todos에는 변경이 완료된 todos 배열이 들어있다. 이 배열로 원래 todos 배열을 수정한다.

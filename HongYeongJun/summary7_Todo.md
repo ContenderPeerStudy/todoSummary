@@ -33,6 +33,26 @@ Todo.jsx <---(nav)---sign-in-form.jsx
     - 할 일을 담고 있는 객체 배열
     - 객체의 state 값이 true이면 완료, false이면 미완료
     - AddTodoModal과 TodoList 컴포넌트에 props로 todos와 setTodos가 전달된다.
+2. 코드
+ <details>
+ <summary>todos 배열</summary>
+     
+     [
+         {
+             id: 1,
+             title: "example-1",
+             content: "example-1",
+             state: true,
+         },
+         {
+             id: 2,
+             title: "example-2",
+             content: "example-2",
+             state: false,
+         },
+     ]
+     
+ </details>
 
 ### 3. CSS
 
